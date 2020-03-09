@@ -1,0 +1,10 @@
+inp_var=input("please enter a value:");
+inp_var=int(inp_var)
+
+sum=0;
+
+while(inp_var):
+    rem=inp_var%10;
+    sum=sum+rem;
+    inp_var//=10;
+print(sum)
